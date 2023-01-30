@@ -1,0 +1,23 @@
+variable "rg_name" {
+    default = "rg1"
+}
+
+variable "location" {
+    default = "East US"
+}
+
+variable "vnet_name" {
+    default = "vnet"
+}
+
+variable "subnet1_name" {
+    default = "subnet1"
+}
+
+variable "subnet2_name" {
+    default = "subnet2"
+}
+
+variable "rg2_name" {
+    default = "rg2"
+}
